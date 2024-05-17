@@ -35,7 +35,7 @@ Deletes the line from the file. For example:
  3,6/d 
 deletes lines 3 to 6 inclusive.
 
-s/<old text>/<new text>/
+s//<old text>/<new text>//
 Replaces the first occurence of <old text>, in the line, with <new text>. For example:
  /filename/s/.pas/.c/ 
 replaces the first occurrence of .pas with .c, in all lines containing filename. The <old text> and <new text> can be maximally 80 characters.
